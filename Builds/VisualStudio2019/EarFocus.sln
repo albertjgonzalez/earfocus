@@ -1,17 +1,17 @@
 Microsoft Visual Studio Solution File, Format Version 11.00
 # Visual Studio 2019
 
-Project("{8BC9CEB8-8B4A-11D0-8D11-00A0C91BC942}") = "EarFocus - Standalone Plugin", "EarFocus_StandalonePlugin.vcxproj", "{4B631C25-A764-C4BA-164B-7A4D9DB7EA00}"
+Project("{8BC9CEB8-8B4A-11D0-8D11-00A0C91BC942}") = "EarFocus - Standalone Plugin", "EarFocus_StandalonePlugin.vcxproj", "{39FE16EE-03CF-732D-583B-0EE2248C606B}"
 	ProjectSection(ProjectDependencies) = postProject
-		{127B60C2-4F32-2B24-653D-E77E67763802} = {127B60C2-4F32-2B24-653D-E77E67763802}
+		{16F81F5F-D462-3AC3-FA94-3231DB2CB4F7} = {16F81F5F-D462-3AC3-FA94-3231DB2CB4F7}
 	EndProjectSection
 EndProject
-Project("{8BC9CEB8-8B4A-11D0-8D11-00A0C91BC942}") = "EarFocus - VST3", "EarFocus_VST3.vcxproj", "{CAF88BE3-2EE3-FB36-FF53-DDC85EAE4606}"
+Project("{8BC9CEB8-8B4A-11D0-8D11-00A0C91BC942}") = "EarFocus - VST3", "EarFocus_VST3.vcxproj", "{654D2248-994B-FE6F-F728-74D441F25C6D}"
 	ProjectSection(ProjectDependencies) = postProject
-		{127B60C2-4F32-2B24-653D-E77E67763802} = {127B60C2-4F32-2B24-653D-E77E67763802}
+		{16F81F5F-D462-3AC3-FA94-3231DB2CB4F7} = {16F81F5F-D462-3AC3-FA94-3231DB2CB4F7}
 	EndProjectSection
 EndProject
-Project("{8BC9CEB8-8B4A-11D0-8D11-00A0C91BC942}") = "EarFocus - Shared Code", "EarFocus_SharedCode.vcxproj", "{127B60C2-4F32-2B24-653D-E77E67763802}"
+Project("{8BC9CEB8-8B4A-11D0-8D11-00A0C91BC942}") = "EarFocus - Shared Code", "EarFocus_SharedCode.vcxproj", "{16F81F5F-D462-3AC3-FA94-3231DB2CB4F7}"
 EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
@@ -19,18 +19,18 @@ Global
 		Release|x64 = Release|x64
 	EndGlobalSection
 	GlobalSection(ProjectConfigurationPlatforms) = postSolution
-		{CAF88BE3-2EE3-FB36-FF53-DDC85EAE4606}.Debug|x64.ActiveCfg = Debug|x64
-		{CAF88BE3-2EE3-FB36-FF53-DDC85EAE4606}.Debug|x64.Build.0 = Debug|x64
-		{CAF88BE3-2EE3-FB36-FF53-DDC85EAE4606}.Release|x64.ActiveCfg = Release|x64
-		{CAF88BE3-2EE3-FB36-FF53-DDC85EAE4606}.Release|x64.Build.0 = Release|x64
-		{4B631C25-A764-C4BA-164B-7A4D9DB7EA00}.Debug|x64.ActiveCfg = Debug|x64
-		{4B631C25-A764-C4BA-164B-7A4D9DB7EA00}.Debug|x64.Build.0 = Debug|x64
-		{4B631C25-A764-C4BA-164B-7A4D9DB7EA00}.Release|x64.ActiveCfg = Release|x64
-		{4B631C25-A764-C4BA-164B-7A4D9DB7EA00}.Release|x64.Build.0 = Release|x64
-		{127B60C2-4F32-2B24-653D-E77E67763802}.Debug|x64.ActiveCfg = Debug|x64
-		{127B60C2-4F32-2B24-653D-E77E67763802}.Debug|x64.Build.0 = Debug|x64
-		{127B60C2-4F32-2B24-653D-E77E67763802}.Release|x64.ActiveCfg = Release|x64
-		{127B60C2-4F32-2B24-653D-E77E67763802}.Release|x64.Build.0 = Release|x64
+		{654D2248-994B-FE6F-F728-74D441F25C6D}.Debug|x64.ActiveCfg = Debug|x64
+		{654D2248-994B-FE6F-F728-74D441F25C6D}.Debug|x64.Build.0 = Debug|x64
+		{654D2248-994B-FE6F-F728-74D441F25C6D}.Release|x64.ActiveCfg = Release|x64
+		{654D2248-994B-FE6F-F728-74D441F25C6D}.Release|x64.Build.0 = Release|x64
+		{39FE16EE-03CF-732D-583B-0EE2248C606B}.Debug|x64.ActiveCfg = Debug|x64
+		{39FE16EE-03CF-732D-583B-0EE2248C606B}.Debug|x64.Build.0 = Debug|x64
+		{39FE16EE-03CF-732D-583B-0EE2248C606B}.Release|x64.ActiveCfg = Release|x64
+		{39FE16EE-03CF-732D-583B-0EE2248C606B}.Release|x64.Build.0 = Release|x64
+		{16F81F5F-D462-3AC3-FA94-3231DB2CB4F7}.Debug|x64.ActiveCfg = Debug|x64
+		{16F81F5F-D462-3AC3-FA94-3231DB2CB4F7}.Debug|x64.Build.0 = Debug|x64
+		{16F81F5F-D462-3AC3-FA94-3231DB2CB4F7}.Release|x64.ActiveCfg = Release|x64
+		{16F81F5F-D462-3AC3-FA94-3231DB2CB4F7}.Release|x64.Build.0 = Release|x64
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
